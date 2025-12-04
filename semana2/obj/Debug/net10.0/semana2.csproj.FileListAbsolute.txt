@@ -1,0 +1,5 @@
+c:\Users\USUARIO\Documents\ESTRUCTURA DE DATOS 2526\semana2\obj\Debug\net10.0\semana2.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\USUARIO\Documents\ESTRUCTURA DE DATOS 2526\semana2\obj\Debug\net10.0\semana2.AssemblyInfoInputs.cache
+c:\Users\USUARIO\Documents\ESTRUCTURA DE DATOS 2526\semana2\obj\Debug\net10.0\semana2.AssemblyInfo.cs
+c:\Users\USUARIO\Documents\ESTRUCTURA DE DATOS 2526\semana2\obj\Debug\net10.0\semana2.csproj.CoreCompileInputs.cache
+c:\Users\USUARIO\Documents\ESTRUCTURA DE DATOS 2526\semana2\obj\Debug\net10.0\semana2.sourcelink.json
