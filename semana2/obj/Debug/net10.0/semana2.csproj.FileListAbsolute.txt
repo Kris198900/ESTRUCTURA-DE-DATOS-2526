@@ -3,3 +3,13 @@ c:\Users\USUARIO\Documents\ESTRUCTURA DE DATOS 2526\semana2\obj\Debug\net10.0\se
 c:\Users\USUARIO\Documents\ESTRUCTURA DE DATOS 2526\semana2\obj\Debug\net10.0\semana2.AssemblyInfo.cs
 c:\Users\USUARIO\Documents\ESTRUCTURA DE DATOS 2526\semana2\obj\Debug\net10.0\semana2.csproj.CoreCompileInputs.cache
 c:\Users\USUARIO\Documents\ESTRUCTURA DE DATOS 2526\semana2\obj\Debug\net10.0\semana2.sourcelink.json
+c:\Users\USUARIO\Documents\ESTRUCTURA DE DATOS 2526\semana2\bin\Debug\net10.0\semana2.exe
+C:\Users\USUARIO\Documents\ESTRUCTURA DE DATOS 2526\semana2\bin\Debug\net10.0\semana2.deps.json
+C:\Users\USUARIO\Documents\ESTRUCTURA DE DATOS 2526\semana2\bin\Debug\net10.0\semana2.runtimeconfig.json
+c:\Users\USUARIO\Documents\ESTRUCTURA DE DATOS 2526\semana2\bin\Debug\net10.0\semana2.dll
+c:\Users\USUARIO\Documents\ESTRUCTURA DE DATOS 2526\semana2\bin\Debug\net10.0\semana2.pdb
+c:\Users\USUARIO\Documents\ESTRUCTURA DE DATOS 2526\semana2\obj\Debug\net10.0\semana2.dll
+c:\Users\USUARIO\Documents\ESTRUCTURA DE DATOS 2526\semana2\obj\Debug\net10.0\refint\semana2.dll
+c:\Users\USUARIO\Documents\ESTRUCTURA DE DATOS 2526\semana2\obj\Debug\net10.0\semana2.pdb
+C:\Users\USUARIO\Documents\ESTRUCTURA DE DATOS 2526\semana2\obj\Debug\net10.0\semana2.genruntimeconfig.cache
+C:\Users\USUARIO\Documents\ESTRUCTURA DE DATOS 2526\semana2\obj\Debug\net10.0\ref\semana2.dll
