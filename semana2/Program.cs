@@ -1,90 +1,78 @@
 ﻿using System;
 
-namespace FigurasGeometricas
+namespace RegistroEstudiantes
 {
-    // Clase Rectángulo que encapsula los atributos y métodos para calcular área y perímetro
-    public class Rectangulo
-    {
-        // Atributos
-        public double Base { get; set; }   // La base del rectángulo
-        public double Altura { get; set; } // La altura del rectángulo
-
-        // Constructor
-        public Rectangulo(double baseValor, double alturaValor)
-        {
-            this.Base = baseValor;      // Asigna el valor de la base
-            this.Altura = alturaValor;  // Asigna el valor de la altura
-        }
-
-        // Calcular el área del rectángulo
-        // La fórmula para el área es Base * Altura
-        public double CalcularArea()
-        {
-            return Base * Altura; // Devuelve el valor del área
-        }
-
-        // Calcular el perímetro del rectángulo
-        // La fórmula para el perímetro es 2 * (Base + Altura)
-        public double CalcularPerimetro()
-        {
-            return 2 * (Base + Altura); // Devuelve el valor del perímetro
-        }
-    }
-
-    // Clase Cuadrado que encapsula los atributos y métodos para calcular área y perímetro
-    public class Cuadrado
-    {
-        // Atributo
-        public double Lado { get; set; } // El lado del cuadrado
-
-        // Constructor
-        public Cuadrado(double ladoValor)
-        {
-            this.Lado = ladoValor; // Asigna el valor del lado
-        }
-
-        // Calcular el área del cuadrado
-        // La fórmula para el área es Lado * Lado
-        public double CalcularArea()
-        {
-            return Lado * Lado; // Devuelve el valor del área
-        }
-
-        // Calcular el perímetro del cuadrado
-        // La fórmula para el perímetro es 4 * Lado
-        public double CalcularPerimetro()
-        {
-            return 4 * Lado; // Devuelve el valor del perímetro
-        }
-    }
-
-    // Clase principal para ejecutar el código
     class Program
     {
+        // Definición de la clase Estudiante
+        public class Estudiante
+        {
+            public int ID { get; set; }
+            public string Nombres { get; set; }
+            public string Apellidos { get; set; }
+            public string Direccion { get; set; }
+            public string[] Telefonos { get; set; } // Array para los teléfonos
+        }
+
         static void Main(string[] args)
         {
-            // Crear un rectángulo con base 5 y altura 10
-            Rectangulo rectangulo = new Rectangulo(5, 10);
+            // Crear un objeto estudiante con datos predefinidos
+            Estudiante[] estudiantes = new Estudiante[4];
 
-            // Crear un cuadrado con lado 6
-            Cuadrado cuadrado = new Cuadrado(6);
+            // Estudiante 1: Cristian Chiquimba
+            estudiantes[0] = new Estudiante
+            {
+                ID = 1,
+                Nombres = "Cristian",
+                Apellidos = "Chiquimba",
+                Direccion = "Quito, Ecuador",
+                Telefonos = new string[] { "0991234567", "0987654321", "0976543210" }
+            };
 
-            // Mostrar los resultados para el rectángulo
-            Console.WriteLine("Rectángulo       | Valor");
-            Console.WriteLine("-----------------|-----------");
-            Console.WriteLine("Base             | " + rectangulo.Base);
-            Console.WriteLine("Altura           | " + rectangulo.Altura);
-            Console.WriteLine("Área             | " + rectangulo.CalcularArea());
-            Console.WriteLine("Perímetro        | " + rectangulo.CalcularPerimetro());
+            // Estudiante 2: Isaac Caicedo
+            estudiantes[1] = new Estudiante
+            {
+                ID = 2,
+                Nombres = "Isaac",
+                Apellidos = "Caicedo",
+                Direccion = "Loja, Ecuador",
+                Telefonos = new string[] { "0992345678", "0988765432", "0965432109" }
+            };
 
-            Console.WriteLine();
+            // Estudiante 3: Daniela Lamiña
+            estudiantes[2] = new Estudiante
+            {
+                ID = 3,
+                Nombres = "Daniela",
+                Apellidos = "Lamiña",
+                Direccion = "Ambato, Ecuador",
+                Telefonos = new string[] { "0993456789", "0989876543", "0954321098" }
+            };
 
-            // Mostrar los resultados para el cuadrado
-            Console.WriteLine("Cuadrado         | Valor");
-            Console.WriteLine("-----------------|-----------");
-            Console.WriteLine("Lado             | " + cuadrado.Lado);
-            Console.WriteLine("Área             | " + cuadrado.CalcularArea());
-            Console.WriteLine("Perímetro        | " + cuadrado.CalcularPerimetro());
+            // Estudiante 4: Jordan Lema
+            estudiantes[3] = new Estudiante
+            {
+                ID = 4,
+                Nombres = "Jordan",
+                Apellidos = "Lema",
+                Direccion = "Cuenca, Ecuador",
+                Telefonos = new string[] { "0994567890", "0986543210", "0973210987" }
+            };
+
+            // Mostrar los datos de los estudiantes
+            foreach (var estudiante in estudiantes)
+            {
+                Console.WriteLine("\nDatos del estudiante:");
+                Console.WriteLine($"ID: {estudiante.ID}");
+                Console.WriteLine($"Nombres: {estudiante.Nombres}");
+                Console.WriteLine($"Apellidos: {estudiante.Apellidos}");
+                Console.WriteLine($"Dirección: {estudiante.Direccion}");
+                Console.WriteLine("Teléfonos:");
+                foreach (var telefono in estudiante.Telefonos)
+                {
+                    Console.WriteLine(telefono);
+                }
+            }
         }
     }
 }
