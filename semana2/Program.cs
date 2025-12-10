@@ -1,78 +1,108 @@
 ﻿using System;
 
-namespace RegistroEstudiantes
+class Cola
 {
-    class Program
+    private int[] colaArray;
+    private int frente;
+    private int fin;
+    private int tamaño;
+
+    public Cola(int tamaño)
     {
-        // Definición de la clase Estudiante
-        public class Estudiante
+        this.tamaño = tamaño;
+        colaArray = new int[tamaño];
+        frente = -1;
+        fin = -1;
+    }
+
+    // Verificar si la cola está llena
+    public bool EstaLlena()
+    {
+        return fin == tamaño - 1;
+    }
+
+    // Verificar si la cola está vacía
+    public bool EstaVacia()
+    {
+        return frente == -1 || frente > fin;
+    }
+
+    // Agregar un elemento a la cola
+    public void Enqueue(int valor)
+    {
+        if (EstaLlena())
         {
-            public int ID { get; set; }
-            public string Nombres { get; set; }
-            public string Apellidos { get; set; }
-            public string Direccion { get; set; }
-            public string[] Telefonos { get; set; } // Array para los teléfonos
+            Console.WriteLine("La cola está llena. No se puede agregar el valor.");
+            return;
         }
+        if (frente == -1) frente = 0; // Si la cola está vacía, inicializar el frente
+        fin++;
+        colaArray[fin] = valor;
+    }
 
-        static void Main(string[] args)
+    // Eliminar un elemento de la cola
+    public int Dequeue()
+    {
+        if (EstaVacia())
         {
-            // Crear un objeto estudiante con datos predefinidos
-            Estudiante[] estudiantes = new Estudiante[4];
+            Console.WriteLine("La cola está vacía. No se puede eliminar el valor.");
+            return -1; // Retorna un valor inválido si la cola está vacía
+        }
+        int valor = colaArray[frente];
+        frente++;
+        return valor;
+    }
 
-            // Estudiante 1: Cristian Chiquimba
-            estudiantes[0] = new Estudiante
-            {
-                ID = 1,
-                Nombres = "Cristian",
-                Apellidos = "Chiquimba",
-                Direccion = "Quito, Ecuador",
-                Telefonos = new string[] { "0991234567", "0987654321", "0976543210" }
-            };
+    // Mostrar los elementos de la cola
+    public void MostrarCola()
+    {
+        if (EstaVacia())
+        {
+            Console.WriteLine("La cola está vacía.");
+            return;
+        }
+        Console.WriteLine("Elementos en la cola:");
+        for (int i = frente; i <= fin; i++)
+        {
+            Console.Write(colaArray[i] + " ");
+        }
+        Console.WriteLine();
+    }
+}
 
-            // Estudiante 2: Isaac Caicedo
-            estudiantes[1] = new Estudiante
-            {
-                ID = 2,
-                Nombres = "Isaac",
-                Apellidos = "Caicedo",
-                Direccion = "Loja, Ecuador",
-                Telefonos = new string[] { "0992345678", "0988765432", "0965432109" }
-            };
+class Program
+{
+    static void Main(string[] args)
+    {
+        // Crear una cola de tamaño 5
+        Cola miCola = new Cola(5);
 
-            // Estudiante 3: Daniela Lamiña
-            estudiantes[2] = new Estudiante
-            {
-                ID = 3,
-                Nombres = "Daniela",
-                Apellidos = "Lamiña",
-                Direccion = "Ambato, Ecuador",
-                Telefonos = new string[] { "0993456789", "0989876543", "0954321098" }
-            };
+        // Agregar elementos a la cola
+        miCola.Enqueue(10);
+        miCola.Enqueue(20);
+        miCola.Enqueue(30);
+        miCola.Enqueue(40);
+        miCola.Enqueue(50);
 
-            // Estudiante 4: Jordan Lema
-            estudiantes[3] = new Estudiante
-            {
-                ID = 4,
-                Nombres = "Jordan",
-                Apellidos = "Lema",
-                Direccion = "Cuenca, Ecuador",
-                Telefonos = new string[] { "0994567890", "0986543210", "0973210987" }
-            };
+        // Mostrar la cola
+        miCola.MostrarCola();
 
-            // Mostrar los datos de los estudiantes
-            foreach (var estudiante in estudiantes)
+        // Eliminar un elemento de la cola
+        Console.WriteLine("Elemento eliminado: " + miCola.Dequeue());
+
+        // Mostrar la cola después de eliminar un elemento
+        miCola.MostrarCola();
+
+        // Crear una matriz de enteros de 2x3
+        int[,] matriz = new int[2, 3] { { 1, 2, 3 }, { 4, 5, 6 } };
+        Console.WriteLine("Matriz:");
+        for (int i = 0; i < 2; i++)
+        {
+            for (int j = 0; j < 3; j++)
             {
-                Console.WriteLine("\nDatos del estudiante:");
-                Console.WriteLine($"ID: {estudiante.ID}");
-                Console.WriteLine($"Nombres: {estudiante.Nombres}");
-                Console.WriteLine($"Apellidos: {estudiante.Apellidos}");
-                Console.WriteLine($"Dirección: {estudiante.Direccion}");
-                Console.WriteLine("Teléfonos:");
-                foreach (var telefono in estudiante.Telefonos)
-                {
-                    Console.WriteLine(telefono);
-                }
+                Console.Write(matriz[i, j] + " ");
             }
+            Console.WriteLine();
         }
     }
 }
