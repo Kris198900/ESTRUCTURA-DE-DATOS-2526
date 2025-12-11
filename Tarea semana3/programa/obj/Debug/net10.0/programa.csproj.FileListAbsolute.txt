@@ -1,0 +1,15 @@
+C:\Users\USUARIO\Documents\ESTRUCTURA DE DATOS 2526\Tarea semana3\programa\bin\Debug\net10.0\programa.exe
+C:\Users\USUARIO\Documents\ESTRUCTURA DE DATOS 2526\Tarea semana3\programa\bin\Debug\net10.0\programa.deps.json
+C:\Users\USUARIO\Documents\ESTRUCTURA DE DATOS 2526\Tarea semana3\programa\bin\Debug\net10.0\programa.runtimeconfig.json
+C:\Users\USUARIO\Documents\ESTRUCTURA DE DATOS 2526\Tarea semana3\programa\bin\Debug\net10.0\programa.dll
+C:\Users\USUARIO\Documents\ESTRUCTURA DE DATOS 2526\Tarea semana3\programa\bin\Debug\net10.0\programa.pdb
+C:\Users\USUARIO\Documents\ESTRUCTURA DE DATOS 2526\Tarea semana3\programa\obj\Debug\net10.0\programa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\Documents\ESTRUCTURA DE DATOS 2526\Tarea semana3\programa\obj\Debug\net10.0\programa.AssemblyInfoInputs.cache
+C:\Users\USUARIO\Documents\ESTRUCTURA DE DATOS 2526\Tarea semana3\programa\obj\Debug\net10.0\programa.AssemblyInfo.cs
+C:\Users\USUARIO\Documents\ESTRUCTURA DE DATOS 2526\Tarea semana3\programa\obj\Debug\net10.0\programa.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Documents\ESTRUCTURA DE DATOS 2526\Tarea semana3\programa\obj\Debug\net10.0\programa.sourcelink.json
+C:\Users\USUARIO\Documents\ESTRUCTURA DE DATOS 2526\Tarea semana3\programa\obj\Debug\net10.0\programa.dll
+C:\Users\USUARIO\Documents\ESTRUCTURA DE DATOS 2526\Tarea semana3\programa\obj\Debug\net10.0\refint\programa.dll
+C:\Users\USUARIO\Documents\ESTRUCTURA DE DATOS 2526\Tarea semana3\programa\obj\Debug\net10.0\programa.pdb
+C:\Users\USUARIO\Documents\ESTRUCTURA DE DATOS 2526\Tarea semana3\programa\obj\Debug\net10.0\programa.genruntimeconfig.cache
+C:\Users\USUARIO\Documents\ESTRUCTURA DE DATOS 2526\Tarea semana3\programa\obj\Debug\net10.0\ref\programa.dll
