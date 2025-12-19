@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("programa")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("AgendaDeTurnos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b0031e9b9e3c6643ea20068e63be39edfe9ca6bc")]
-[assembly: System.Reflection.AssemblyProductAttribute("programa")]
-[assembly: System.Reflection.AssemblyTitleAttribute("programa")]
+[assembly: System.Reflection.AssemblyProductAttribute("AgendaDeTurnos")]
+[assembly: System.Reflection.AssemblyTitleAttribute("AgendaDeTurnos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.
