@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USUARIO\\Documents\\ESTRUCTURA DE DATOS 2526\\AgendaDeTurnos\\AgendaDeTurnos.csproj",
+      "projectUniqueName": "C:\\Users\\USUARIO\\Documents\\ESTRUCTURA DE DATOS 2526\\Semana 4\\AgendaDeTurnos\\AgendaDeTurnos.csproj",
       "projectName": "AgendaDeTurnos",
-      "projectPath": "C:\\Users\\USUARIO\\Documents\\ESTRUCTURA DE DATOS 2526\\AgendaDeTurnos\\AgendaDeTurnos.csproj",
+      "projectPath": "C:\\Users\\USUARIO\\Documents\\ESTRUCTURA DE DATOS 2526\\Semana 4\\AgendaDeTurnos\\AgendaDeTurnos.csproj",
       "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\USUARIO\\Documents\\ESTRUCTURA DE DATOS 2526\\AgendaDeTurnos\\obj\\",
+      "outputPath": "C:\\Users\\USUARIO\\Documents\\ESTRUCTURA DE DATOS 2526\\Semana 4\\AgendaDeTurnos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config"
