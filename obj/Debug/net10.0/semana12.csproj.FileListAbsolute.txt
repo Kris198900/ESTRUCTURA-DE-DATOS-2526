@@ -7,7 +7,6 @@ C:\Users\USUARIO\Documents\ESTRUCTURA DE DATOS 2526\semana12\obj\Debug\net10.0\s
 C:\Users\USUARIO\Documents\ESTRUCTURA DE DATOS 2526\semana12\obj\Debug\net10.0\semana12.AssemblyInfoInputs.cache
 C:\Users\USUARIO\Documents\ESTRUCTURA DE DATOS 2526\semana12\obj\Debug\net10.0\semana12.AssemblyInfo.cs
 C:\Users\USUARIO\Documents\ESTRUCTURA DE DATOS 2526\semana12\obj\Debug\net10.0\semana12.csproj.CoreCompileInputs.cache
-C:\Users\USUARIO\Documents\ESTRUCTURA DE DATOS 2526\semana12\obj\Debug\net10.0\semana12.sourcelink.json
 C:\Users\USUARIO\Documents\ESTRUCTURA DE DATOS 2526\semana12\obj\Debug\net10.0\semana12.dll
 C:\Users\USUARIO\Documents\ESTRUCTURA DE DATOS 2526\semana12\obj\Debug\net10.0\refint\semana12.dll
 C:\Users\USUARIO\Documents\ESTRUCTURA DE DATOS 2526\semana12\obj\Debug\net10.0\semana12.pdb
