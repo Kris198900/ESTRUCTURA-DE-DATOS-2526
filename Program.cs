@@ -20,20 +20,19 @@ namespace TorneoFutbol
                 Console.WriteLine("5. Eliminar Equipo");
                 Console.WriteLine("6. Salir");
                 Console.Write("Seleccione una opcion: ");
-                
-                string opcion = Console.ReadLine();
+
+                string opcion = Console.ReadLine() ?? string.Empty;
 
                 switch (opcion)
                 {
                     case "1":
                         Console.WriteLine("Ingrese el nombre del equipo:");
-                        string nombreEquipo = Console.ReadLine();
-                        
-                        // Validación de nombre de equipo
+                        string nombreEquipo = Console.ReadLine() ?? string.Empty;
+
                         if (string.IsNullOrEmpty(nombreEquipo))
                         {
                             Console.ForegroundColor = ConsoleColor.Red;
-                            Console.WriteLine("El nombre del equipo no puede estar vacío.");
+                            Console.WriteLine("El nombre del equipo no puede estar vacio.");
                             Console.ResetColor();
                             break;
                         }
@@ -42,47 +41,44 @@ namespace TorneoFutbol
 
                     case "2":
                         Console.WriteLine("Ingrese el nombre del equipo para registrar un jugador:");
-                        nombreEquipo = Console.ReadLine();
-                        
-                        // Validación de nombre de equipo
+                        nombreEquipo = Console.ReadLine() ?? string.Empty;
+
                         if (string.IsNullOrEmpty(nombreEquipo))
                         {
                             Console.ForegroundColor = ConsoleColor.Red;
-                            Console.WriteLine("El nombre del equipo no puede estar vacío.");
+                            Console.WriteLine("El nombre del equipo no puede estar vacio.");
                             Console.ResetColor();
                             break;
                         }
 
                         Console.WriteLine("Ingrese el nombre del jugador:");
-                        string nombreJugador = Console.ReadLine();
-                        
-                        // Validación de nombre del jugador
+                        string nombreJugador = Console.ReadLine() ?? string.Empty;
+
                         if (string.IsNullOrEmpty(nombreJugador))
                         {
                             Console.ForegroundColor = ConsoleColor.Red;
-                            Console.WriteLine("El nombre del jugador no puede estar vacío.");
+                            Console.WriteLine("El nombre del jugador no puede estar vacio.");
                             Console.ResetColor();
                             break;
                         }
 
                         Console.WriteLine("Ingrese la edad del jugador:");
                         int edad;
-                        if (!int.TryParse(Console.ReadLine(), out edad) || edad <= 0)
+                        if (!int.TryParse(Console.ReadLine() ?? string.Empty, out edad) || edad <= 0)
                         {
                             Console.ForegroundColor = ConsoleColor.Red;
-                            Console.WriteLine("Por favor ingrese una edad válida.");
+                            Console.WriteLine("Por favor ingrese una edad valida.");
                             Console.ResetColor();
                             break;
                         }
 
                         Console.WriteLine("Ingrese la posicion del jugador:");
-                        string posicion = Console.ReadLine();
-                        
-                        // Validación de posición
+                        string posicion = Console.ReadLine() ?? string.Empty;
+
                         if (string.IsNullOrEmpty(posicion))
                         {
                             Console.ForegroundColor = ConsoleColor.Red;
-                            Console.WriteLine("La posición del jugador no puede estar vacía.");
+                            Console.WriteLine("La posicion del jugador no puede estar vacia.");
                             Console.ResetColor();
                             break;
                         }
@@ -92,13 +88,12 @@ namespace TorneoFutbol
 
                     case "3":
                         Console.WriteLine("Ingrese el nombre del equipo para mostrar los jugadores:");
-                        nombreEquipo = Console.ReadLine();
-                        
-                        // Validación de nombre de equipo
+                        nombreEquipo = Console.ReadLine() ?? string.Empty;
+
                         if (string.IsNullOrEmpty(nombreEquipo))
                         {
                             Console.ForegroundColor = ConsoleColor.Red;
-                            Console.WriteLine("El nombre del equipo no puede estar vacío.");
+                            Console.WriteLine("El nombre del equipo no puede estar vacio.");
                             Console.ResetColor();
                             break;
                         }
@@ -107,24 +102,23 @@ namespace TorneoFutbol
 
                     case "4":
                         Console.WriteLine("Ingrese el nombre del equipo para eliminar un jugador:");
-                        nombreEquipo = Console.ReadLine();
-                        
-                        // Validación de nombre de equipo
+                        nombreEquipo = Console.ReadLine() ?? string.Empty;
+
                         if (string.IsNullOrEmpty(nombreEquipo))
                         {
                             Console.ForegroundColor = ConsoleColor.Red;
-                            Console.WriteLine("El nombre del equipo no puede estar vacío.");
+                            Console.WriteLine("El nombre del equipo no puede estar vacio.");
                             Console.ResetColor();
                             break;
                         }
+
                         Console.WriteLine("Ingrese el nombre del jugador a eliminar:");
-                        string nombreJugadorEliminar = Console.ReadLine();
-                        
-                        // Validación de nombre del jugador
+                        string nombreJugadorEliminar = Console.ReadLine() ?? string.Empty;
+
                         if (string.IsNullOrEmpty(nombreJugadorEliminar))
                         {
                             Console.ForegroundColor = ConsoleColor.Red;
-                            Console.WriteLine("El nombre del jugador no puede estar vacío.");
+                            Console.WriteLine("El nombre del jugador no puede estar vacio.");
                             Console.ResetColor();
                             break;
                         }
@@ -133,13 +127,12 @@ namespace TorneoFutbol
 
                     case "5":
                         Console.WriteLine("Ingrese el nombre del equipo a eliminar:");
-                        nombreEquipo = Console.ReadLine();
-                        
-                        // Validación de nombre de equipo
+                        nombreEquipo = Console.ReadLine() ?? string.Empty;
+
                         if (string.IsNullOrEmpty(nombreEquipo))
                         {
                             Console.ForegroundColor = ConsoleColor.Red;
-                            Console.WriteLine("El nombre del equipo no puede estar vacío.");
+                            Console.WriteLine("El nombre del equipo no puede estar vacio.");
                             Console.ResetColor();
                             break;
                         }
